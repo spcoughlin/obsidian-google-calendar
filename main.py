@@ -70,7 +70,7 @@ def add_event(service, summary, start_time, end_time):
     print(f"Event created: {event.get('htmlLink')}")
 
 if __name__ == "__main__":
-    DAILY_NOTES_DIR = "/Users/seancoughlin/Documents/Obsidian Vault/git-repo/Daily Journal-TODO"
+    DAILY_NOTES_DIR = "<REPLACE WITH YOUR DIRECTORY>"
     tasks = get_tasks(DAILY_NOTES_DIR)
     service = google_calendar_service()
     date = datetime.date.today().strftime("%Y-%m-%d")

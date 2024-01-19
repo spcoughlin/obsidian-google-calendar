@@ -34,3 +34,7 @@ Follow the quickstart up to "Install the Google Client Library"
 Clone the repository, replace the credentials.json file with the one you got from Google, and delete `token.json`. Replace the directory variable in the `if __name__ == __main__:`  section at the bottom of the script, with the directory where your daily notes are created and stored. 
 
 A new `token.json` will be created when the program is run for the first time, and the application is authenticated.
+
+# Recommended aliases
+
+I made aliases for the scripts, "gcal-fill" which calls the main script, "gcal-delete" which calls the delete script, and "gcal-update" which calls gcal-delete && gcal-fill

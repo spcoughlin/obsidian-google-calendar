@@ -1,5 +1,9 @@
 # Demo
 
+
+https://github.com/spcoughlin/obsidian-google-calendar/assets/99555305/618ce4c2-5a6c-45c3-988f-cd2da57a6f0a
+
+
 # Setup
 ## Guide: Formatting Day Planner
 
